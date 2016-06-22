@@ -10,6 +10,8 @@ namespace _0314.Models
         /// <summary>
         /// 訂單編號
         /// </summary>
+        /// 
+        
         public int OrderId { get; set; }
 
         /// <summary>

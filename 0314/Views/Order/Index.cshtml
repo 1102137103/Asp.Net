@@ -1,5 +1,4 @@
-﻿
-@{
+﻿@{
     Layout = null;
 }
 
@@ -11,9 +10,56 @@
     <title>Index</title>
 </head>
 <body>
-    <div> 
-        @ViewBag.CustId
-        @ViewBag.CustName 
+    <div>
+        <div style="font-size:25px;font-weight: 800;">
+            訂單查詢
+        </div>
+        <table border="1">
+            <tr>
+                <th>訂單編號</th>
+                <td colspan="3"></td>
+            </tr>
+            <tr>
+                <th>客戶名稱</th>
+                <td colspan="3"></td>
+            </tr>
+            <tr>
+                <th>負責員工</th>
+                <td colspan="3">
+                    <select></select>
+                </td>
+            </tr>
+            <tr>
+                <th>出貨公司</th>
+                <td colspan="3">
+                    <select></select>
+                </td>
+            </tr>
+            <tr>
+                <th>訂購日期</th>
+                <td>
+                    <input type="date">
+                </td>
+                <th>出貨日期</th>
+                <td>
+                    <input type="date">
+                </td>
+            </tr>
+            <tr>
+                <th>需要日期</th>
+                <td colspan="3">
+                    <input type="date">
+                </td>
+            </tr>
+            <tr>
+                <th></th>
+                <td colspan="3">
+                    <button type="button">查詢</button>
+                    <button type="button">清除</button>
+                    <button type="button">新增訂單</button>
+                </td>
+            </tr>
+        </table>
     </div>
 </body>
 </html>

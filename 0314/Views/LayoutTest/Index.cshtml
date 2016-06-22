@@ -1,0 +1,30 @@
+﻿
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/_LayoutPage.cshtml";
+}
+
+
+<table class="table table-bordered table-striped">
+    <tr>
+        <td>訂單編號</td>
+    </tr>
+    <tr>
+        <td>客戶名稱</td>
+    </tr>
+    <tr>
+        <td>負責員工</td>
+    </tr>
+    <tr>
+        <td>出貨公司</td>
+    </tr>
+    <tr>
+        <td>訂購日期</td>
+    </tr>
+    <tr>
+        <td>需要日期</td>
+    </tr>
+</table>
+@{Html.RenderPartial("_SysDataPartial");}
+
+
